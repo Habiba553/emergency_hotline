@@ -30,7 +30,7 @@ document.querySelectorAll(".call-btn").forEach(btn => {
 
     const historyEl = document.getElementById("callHistory");
     const entry = document.createElement("div");
-    entry.className = "flex justify-between items-center p-2 bg-white rounded shadow mt-2";
+    entry.className = "flex justify-between items-center p-2 bg-gray-50 rounded shadow mt-2";
     entry.innerHTML = `
       <div>
         <p class="font-semibold">${serviceName}</p>
