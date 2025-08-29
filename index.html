@@ -12,24 +12,23 @@
 <body class="bg-green-50 font-sans">
   <!-- Navbar -->
  
-<nav class="bg-white shadow-md">
-  <div class="container mx-auto flex items-center justify-between px-15 py-6">
+<nav class="bg-white shadow-md ">
+  <div class="container mx-auto flex flex-row items-center justify-between p-8 sm:p-4 lg:px-15 py-6">
     
-    <div class="flex items-center space-x-2">
+    <div class="flex items-center justify-start space-x-2 ">
       <img src="/assets/logo.png" 
-           alt="Logo" class="w-13 h-13">
-          
-      <span class="text-green-800 font-bold text-lg">Emergency <br> Service</span>
+           alt="Logo" class="w-13 h-13"> 
+      <span class=" text-green-800 text-sm sm:text-base md:text-lg lg:text-xl font-bold">Emergency <br> Service</span>
     </div>
     
     <!-- Right Side Icons -->
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-4 absolute top-7 right-2 md:static md:ml-auto ">
     
-      <div class="flex items-center space-x-1 px-6 py-2 rounded-full bg-green-50">
+      <div class="flex items-center space-x-1 px-6 py-2 rounded-full bg-green-100">
         <span id="HeartCount" class="font-bold">0</span> <img src="/assets/heart.png" alt="heart" class="w-5 h-5"> 
       </div>
 
-      <div class="flex items-center space-x-1 px-6 py-2 rounded-full bg-green-50">
+      <div class="flex items-center space-x-1 px-6 py-2 rounded-full bg-green-100">
         <span id="coinCount" class="font-bold">100</span>
         <img src="assets/coin.png" alt="coin" class="w-4 h-4">
       </div>
@@ -50,9 +49,9 @@
   </div>
 </header>
 
-<section class="container mx-auto p-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<section class="container mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
-  <div class="container mx-auto p-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 col-span-3 gap-6">
+  <div class="container mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 col-span-3 gap-6">
   <div class="bg-white rounded-2xl shadow-md p-8 text-center">
     <div class="flex justify-between items-start mb-3">
    <div class="w-10 h-10 flex items-center justify-center rounded-lg bg-[#FFE3E2]"> <img src="assets/emergency.png" alt="" class="w-6 h-6"> </div>
@@ -235,8 +234,7 @@
 </div>
 
 
-
-<div class="history-btn bg-white rounded-2xl shadow-md p-8 text-center mb-6 mt-6">
+<div class="history-btn bg-white rounded-2xl shadow-md m-6 sm:m-4 p-7 sm:p-6 text-center w-full">
   <div class="flex items-center justify-between">
     <div class="flex items-center space-x-2">
       <i class="fa-regular fa-clock"></i>

@@ -10,7 +10,7 @@ document.querySelectorAll(".add-heart-btn").forEach(btn => { btn.addEventListene
 });
 
 
-
+// call-button
 document.querySelectorAll(".call-btn").forEach(btn => {
   btn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -20,14 +20,14 @@ document.querySelectorAll(".call-btn").forEach(btn => {
     let coins = parseInt(coinEl.innerText);
 
     if (coins < 20) {
-      alert("Not enough coins to make a call!");
+      alert("\u274C Not enough coins! You at least need 20 coins to call!");
       return;
     }
 
     coins -= 20;
     coinEl.innerText = coins;
 
-    alert(`Calling ${serviceName} at ${serviceNumber}`);
+    alert(`\u260E  Calling ${serviceName} ${serviceNumber}.....`);
 
     const historyEl = document.getElementById("callHistory");
     const entry = document.createElement("div");
