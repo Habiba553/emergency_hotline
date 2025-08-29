@@ -1,4 +1,3 @@
-console.log('hello')
 
 document.querySelectorAll(".add-heart-btn").forEach(btn => { btn.addEventListener("click",(e) => {
    e.preventDefault()
